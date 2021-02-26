@@ -34,7 +34,7 @@ function CartItem({item, quantity}) {
                   {item.SKU}
               </div>
           </div>
-          <div style={{marginLeft: 10, textAlign: 'left', width: '50%'}}>
+          <div style={styles.cartReceiptStyles.description}>
               <div style={{marginTop: 15}}>
                   {item.description}
               </div>
@@ -42,7 +42,7 @@ function CartItem({item, quantity}) {
                   {(item.onSale) ? 'On Sale' : ''}
               </div>
           </div>
-          <div style={{marginLeft: 10,textAlign: 'right'}}>
+          <div style={styles.cartReceiptStyles.costDetails}>
               <div  style={{fontSize: 25, marginTop: 10, ...priceStyle}}>
                   {item.price + priceConstants.dollarSign}
               </div>

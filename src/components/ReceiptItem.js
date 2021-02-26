@@ -17,7 +17,7 @@ function ReceiptItem({item}) {
                 {item.SKU}
             </div>
         </div>
-        <div style={{textAlign: 'left', width: '50%'}}>
+        <div style={styles.cartReceiptStyles.description}>
             <div style={{marginTop: 15}}>
                 {item.description}
             </div>
@@ -25,7 +25,7 @@ function ReceiptItem({item}) {
                 {(item.onSale) ? 'On Sale' : ''}
             </div>
         </div>
-        <div style={{textAlign: 'right'}}>
+        <div style={styles.cartReceiptStyles.costDetails}>
             <div style={{fontSize: 35, marginTop: 10, color : (item.onSale) ? 'red' : 'black'}}>
                 {priceConstants.dollarSign + price}
             </div>

@@ -32,11 +32,24 @@ let container = {
     flexWrap: 'wrap', 
     justifyContent: 'space-evenly'
 }
+
+let description = {
+    textAlign: 'left', 
+    width: '50%',
+    marginLeft: 10,
+}
+
+let costDetails = {
+    marginLeft: 10,
+    textAlign: 'right'
+}
 let cartReceiptStyles = {
     container : container,
     image : image,
     item : item,
     summary : summary,
+    description: description,
+    costDetails : costDetails,
 }
 
 export default cartReceiptStyles;
