@@ -12,7 +12,7 @@ function NavBar() {
        <div style={styles.baseStyles.appName}>ShopHub</div>
        <div style={styles.baseStyles.navLinkContainer}>
           <Link style={styles.baseStyles.navLink} to='/cart'>{cartLink} </Link>
-          <Link style={styles.baseStyles.navLink} to=''>Home</Link>
+          <Link style={styles.baseStyles.navLink} to='/'>Home</Link>
        </div>
   </nav>
   );
