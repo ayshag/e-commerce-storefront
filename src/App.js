@@ -25,10 +25,10 @@ function App() {
         <NavBar/>
         <div className="App" style={styles.baseStyles.appBackground}>
           <Switch>
-            <Route exact path='/' component={LandingPage} /> 
-            <Route exact path='/cart' component={Cart} /> 
-            <Route exact path='/item' component={ItemDetails} /> 
-            <Route exact path='/receipt' component={Receipt} /> 
+            <Route exact path='/e-commerce-storefront' component={LandingPage} /> 
+            <Route exact path='/e-commerce-storefront/cart' component={Cart} /> 
+            <Route exact path='/e-commerce-storefront/item' component={ItemDetails} /> 
+            <Route exact path='/e-commerce-storefront/receipt' component={Receipt} /> 
           </Switch>      
         </div>
       </Router>
