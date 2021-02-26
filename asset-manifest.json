@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/e-commerce-storefront/static/css/main.951de572.chunk.css",
+    "main.js": "/e-commerce-storefront/static/js/main.32e5a77d.chunk.js",
+    "main.js.map": "/e-commerce-storefront/static/js/main.32e5a77d.chunk.js.map",
+    "runtime-main.js": "/e-commerce-storefront/static/js/runtime-main.894b56f7.js",
+    "runtime-main.js.map": "/e-commerce-storefront/static/js/runtime-main.894b56f7.js.map",
+    "static/js/2.5c2dd335.chunk.js": "/e-commerce-storefront/static/js/2.5c2dd335.chunk.js",
+    "static/js/2.5c2dd335.chunk.js.map": "/e-commerce-storefront/static/js/2.5c2dd335.chunk.js.map",
+    "static/js/3.3a04437b.chunk.js": "/e-commerce-storefront/static/js/3.3a04437b.chunk.js",
+    "static/js/3.3a04437b.chunk.js.map": "/e-commerce-storefront/static/js/3.3a04437b.chunk.js.map",
+    "index.html": "/e-commerce-storefront/index.html",
+    "static/css/main.951de572.chunk.css.map": "/e-commerce-storefront/static/css/main.951de572.chunk.css.map",
+    "static/js/2.5c2dd335.chunk.js.LICENSE.txt": "/e-commerce-storefront/static/js/2.5c2dd335.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/e-commerce-storefront/static/media/logo.6ce24c58.svg",
+    "static/media/shoe-blue.417d6c28.jpg": "/e-commerce-storefront/static/media/shoe-blue.417d6c28.jpg",
+    "static/media/shoe-purple.29ba77c6.jpg": "/e-commerce-storefront/static/media/shoe-purple.29ba77c6.jpg",
+    "static/media/shoe-red.44269788.jpg": "/e-commerce-storefront/static/media/shoe-red.44269788.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.894b56f7.js",
+    "static/js/2.5c2dd335.chunk.js",
+    "static/css/main.951de572.chunk.css",
+    "static/js/main.32e5a77d.chunk.js"
+  ]
+}
