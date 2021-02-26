@@ -29,6 +29,10 @@ function App() {
             <Route exact path='/e-commerce-storefront/cart' component={Cart} /> 
             <Route exact path='/e-commerce-storefront/item' component={ItemDetails} /> 
             <Route exact path='/e-commerce-storefront/receipt' component={Receipt} /> 
+            <Route exact path='/' component={LandingPage} /> 
+            <Route exact path='/cart' component={Cart} /> 
+            <Route exact path='/item' component={ItemDetails} /> 
+            <Route exact path='/receipt' component={Receipt} /> 
           </Switch>      
         </div>
       </Router>

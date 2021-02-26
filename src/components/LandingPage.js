@@ -16,11 +16,9 @@ function LandingPage() {
   });
 
   return (
-    <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
       <div style={styles.baseStyles.landingPage}> 
               {products.map((item) => <Product item = {item}  />)}         
       </div>
-    </div>
   );
 }
 
